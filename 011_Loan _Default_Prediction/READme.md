@@ -8,23 +8,23 @@ The goal is to help banks and financial institutions assess loan risk more effec
 📂 Dataset
 
 Contains applicant details such as:
-Employment status
-Bank balance
-Annual income
+Employment status,
+Bank balance,
+Annual income,
 Target column: Loan Default (Yes/No)
 
 ⚙️ Tech Stack
 
-Python
-TensorFlow / Keras (Neural Network Model)
-Pandas & NumPy (Data Processing)
-Matplotlib & Seaborn (Visualization)
+Python,
+TensorFlow / Keras (Neural Network Model),
+Pandas & NumPy (Data Processing),
+Matplotlib & Seaborn (Visualization),
 Scikit-learn (Preprocessing, Evaluation Metrics)
 
 🏗️ Model Architecture
 
 The model is built using a Sequential API with:
-Dense hidden layers (ReLU activation)
-Output layer with Sigmoid activation (for binary classification)
-Loss function: Binary Crossentropy
+Dense hidden layers (ReLU activation),
+Output layer with Sigmoid activation (for binary classification),
+Loss function: Binary Crossentropy,
 Optimizer: Adam
